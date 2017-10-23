@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.ul_list {
+	list-style: none;
+}
+.ul_list li {
+	background-color: deepskyblue;
+	margin: 10px;
+	padding: 10px;
+}
+.name {
+	font-size: 20px;
+}
+.price {
+	color: red;
+}
+.page2 li{
+	float: left;
+}
