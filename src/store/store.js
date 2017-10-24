@@ -22,5 +22,17 @@ export const store = new Vuex.Store({
     				price: '10.0'
     			}
 		]
+	},
+	getters: {
+		// 商品价格加倍
+		goodsPriceDoubble: state => {
+			var goodsPriceDoubble = state.goodsList.map(function(item){
+				return {
+					price: item.price * 2,
+					name: item.name
+				}
+			})
+			return goodsPriceDoubble;
+		}
 	}
 })

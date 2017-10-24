@@ -24,7 +24,7 @@ export default new Router({
             component: resolve => require(['../components/Page3.vue'], resolve)
         },
         {
-        		path: '/page4',// 页面2
+        		path: '/page4',// 页面2  Getter
 			component: resolve => require(['../components/Page4.vue'], resolve)
         }
   ]
