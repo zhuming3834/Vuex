@@ -34,5 +34,27 @@ export const store = new Vuex.Store({
 			})
 			return goodsPriceDoubble;
 		}
+	},
+	mutations: {
+		// 商品价格减半  
+		goodsPriceDiscount: state => {
+			var goodsPriceDiscount = state.goodsList.map(function(item){
+				return {
+					price: item.price / 2,
+					name: item.name
+				}
+			})
+			state.goodsList = goodsPriceDiscount;
+		},
+		// 统一修改商品名字
+		changeName: (state,payload) => {
+			var changeName = state.goodsList.map(function(item){
+				return {
+					price: item.price,
+					name: payload // 接收参数
+				}
+			})
+			state.goodsList = changeName;
+		}
 	}
 })

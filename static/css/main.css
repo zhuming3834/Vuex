@@ -19,3 +19,11 @@
 .page2 li{
 	float: left;
 }
+.input_name {
+	margin-left: 10px;
+	height: 44px;
+	width: 180px;
+}
+button {
+	padding: 10px;
+}

@@ -25,10 +25,15 @@ npm run build --report
 |-- src
     |-- assets
     |-- components
-        |- Page1.vue    // Page1.vue  Page2.vue  没有使用 vuex
-        |- Page2.vue
-        |- Page3.vue    // Page3.vue  Page4.vue  有使用 vuex  State Getter
-        |- Page4.vue
+        |-- No_Vuex      // Page1.vue  Page2.vue  没有使用 vuex
+            |- Page1.vue    
+            |- Page2.vue
+        |-- State_Getter // Page3.vue  Page4.vue  有使用 vuex  State Getter
+            |- Page3.vue    
+            |- Page4.vue
+        |-- Mutation     // Page5.vue  Page6.vue  有使用 vuex  Mutation
+            |- Page5.vue    
+            |- Page6.vue
    |-- router
         |- index.js
    |- App.vue
