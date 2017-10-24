@@ -6,7 +6,6 @@ import router from './router'
 
 import Vuex from 'vuex'
 Vue.use(Vuex)
-
 import {store} from './store/store'
 
 Vue.config.productionTip = false

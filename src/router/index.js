@@ -9,6 +9,7 @@ export default new Router({
             path: '/',
             redirect: '/page1'
         },
+        // 没有使用vuex
          {
             path: '/page1', // 页面1
             component: resolve => require(['../components/Page1.vue'], resolve)
@@ -16,6 +17,15 @@ export default new Router({
         {
         		path: '/page2',// 页面2
 			component: resolve => require(['../components/Page2.vue'], resolve)
+        },
+        // 有使用vuex  State
+         {
+            path: '/page3', // 页面1
+            component: resolve => require(['../components/Page3.vue'], resolve)
+        },
+        {
+        		path: '/page4',// 页面2
+			component: resolve => require(['../components/Page4.vue'], resolve)
         }
   ]
 })
