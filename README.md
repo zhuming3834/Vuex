@@ -34,6 +34,9 @@ npm run build --report
         |-- Mutation     // Page5.vue  Page6.vue  有使用 vuex  Mutation
             |- Page5.vue    
             |- Page6.vue
+        |-- Action       // Page7.vue  Page8.vue  有使用 vuex  Action
+            |- Page7.vue    
+            |- Page8.vue
    |-- router
         |- index.js
    |- App.vue

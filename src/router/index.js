@@ -35,6 +35,20 @@ export default new Router({
         {
             path: '/page6', // 页面2 Mutation
             component: resolve => require(['../components/Mutation/Page6.vue'], resolve)
+        },  
+        // 有使用vuex  Action
+        {
+            path: '/page7', // 页面1 Mutation
+            component: resolve => require(['../components/Action/Page7.vue'], resolve)
+        },
+        {
+            path: '/page8', // 页面2 Mutation
+            component: resolve => require(['../components/Action/Page8.vue'], resolve)
+        },
+        // 有使用vuex  Module
+        {
+            path: '/page9', // 页面1 Mutation
+            component: resolve => require(['../components/Module/Page9.vue'], resolve)
         },
   ]
 })
