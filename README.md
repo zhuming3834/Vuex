@@ -37,6 +37,8 @@ npm run build --report
         |-- Action       // Page7.vue  Page8.vue  有使用 vuex  Action
             |- Page7.vue    
             |- Page8.vue
+        |-- Module       // Page9.vue  有使用 vuex  Module
+            |- Page9.vue    
    |-- router
         |- index.js
    |- App.vue
